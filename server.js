@@ -8,7 +8,7 @@ const { TiktokDL } = require('@tobyg74/tiktok-api-dl');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 4914;
+const PORT = process.env.PORT || 10000;
 
 app.use(cors());
 app.use(express.json());
