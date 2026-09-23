@@ -1,0 +1,19 @@
+{
+  "name": "saweria-fetch-backend",
+  "version": "1.0.0",
+  "description": "Backend API Downloader untuk YouTube dan TikTok",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@tobyg74/tiktok-api-dl": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.2",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
